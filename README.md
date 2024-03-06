@@ -156,10 +156,10 @@ gain that can be tuned.
 ![Attractive potential](media/Attractive_potential.png)  
 *Attractive potential*
 
-![Repulsive potential](media/Repulsive potential.png)  
+![Repulsive potential](media/Repulsive_potential.png)  
 *Repulsive potential*
 
-![Total potential](media/Total potential.png)  
+![Total potential](media/Total_potential.png)  
 *Total potential*
 
 
@@ -194,7 +194,7 @@ This was tested on different goals and was successful in all cases.
 ![Client](media/client.png)  
 *Client terminal*
 
-![Results](media/results.png)  
+![Results](media/result.png)  
 *Results terminal + Simulation (Gazeboo) + LaserData (Rviz)*
 
 ## Developers
