@@ -153,14 +153,22 @@ and setting it to *1−g×range[i]* if anything was detected, where *g* is the p
 gain that can be tuned.
 
 * The **total force vector** was then computed summing the two previous force vectors.
-![Attractive potential](media/Attractive_potential.png)  
-*Attractive potential*
 
-![Repulsive potential](media/Repulsive_potential.png)  
-*Repulsive potential*
+<div align="center">
+  <img src="media/Attractive_potential.png" alt="Attractive potential" title="Attractive potential" />
+  <p><em>Attractive potential</em></p>
+</div>
 
-![Total potential](media/Total_potential.png)  
-*Total potential*
+<div align="center">
+  <img src="media/Repulsive_potential.png" alt="Repulsive potential" title="Repulsive potential" />
+  <p><em>Repulsive potential</em></p>
+</div>
+
+<div align="center">
+  <img src="media/Total_potential.png" alt="Total potential" title="Total potential" />
+  <p><em>Total potential</em></p>
+</div>
+
 
 
 From the total force vector we can select the index corresponding to **highest potential** which is
@@ -191,11 +199,17 @@ ResultsIn  all  three  modes  **1,  2,  3**  once  the  goal  is  reached,  the 
 Even  when  testing  the  detection  where  an  obstacle  was  completely occluded  three  objects  where  correctly  detected.   The  position  of  the  centers  of  the  cylindrical 
 objects calculated by us corresponds to the correct one displayed through **Rviz**.
 This was tested on different goals and was successful in all cases.
-![Client](media/client.png)  
-*Client terminal*
 
-![Results](media/result.png)  
-*Results terminal + Simulation (Gazeboo) + LaserData (Rviz)*
+<div align="center">
+  <img src="media/client.png" alt="Client terminal" title="Client terminal" />
+  <p><em>Client terminal</em></p>
+</div>
+
+<div align="center">
+  <img src="media/result.png" alt="Results terminal + Simulation (Gazeboo) + LaserData (Rviz)" title="Results terminal + Simulation (Gazeboo) + LaserData (Rviz)" />
+  <p><em>Results terminal + Simulation (Gazeboo) + LaserData (Rviz)</em></p>
+</div>
+
 
 ## Developers
 - [Gabriel Taormina](mailto:gabriel.taormina@protonmail.com) 
