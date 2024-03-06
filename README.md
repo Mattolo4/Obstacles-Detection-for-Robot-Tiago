@@ -140,7 +140,7 @@ reach a goal point that directly process the sensor data and generate velocity c
 robot in the *mobile_base_controller/cmd_vel*
 without using the *move_base* stack.
 
-To achievethis, the idea was similar to the **potential fields** algorithm but implemented in a **reactive and radial
+To achieve this, the idea was similar to the **potential fields** algorithm but implemented in a **reactive and radial
 form**. We  computed  two  vectors,  an  **attractive  force  vector**  and  a  **repulsive  force  vector**  which
 are then summed to create the **total force vector**.  This vectors have a size equal to a radius *2π×angle_increment* to obtain a vector size of 1088.
 In this way the **robot X-axis** direction is the halfway point of the array, the points after this are the positive angles **+θ** and the ones before are
