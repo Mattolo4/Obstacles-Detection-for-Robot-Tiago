@@ -83,7 +83,7 @@ where *x* and *y* are the **Pose_B** coordinates, and *yaw_angle* it the **Tiago
 We implement an Action Client/Server structure:
 * **Client**:  the action client receives the input from the user by command line, by providing:
   - The x, y coordinates regarding location and yaw regarding orientation. This informationwill go to create PoseB that corresponds to our goal.
-  - Which of the three possible motion control laws the user want to use choosing between1, 2, 3.
+  - Which of the three possible motion control laws the user want to use choosing between 1, 2, 3.
 
 Once the goal is obtained,  the client sends the information to the server.
 The action client also implements **callbacks** to the **feedback** of the action server, and prints the task's current
