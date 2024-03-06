@@ -197,7 +197,7 @@ This results in a dynamic linear velocity that let the robot travel fast when no
 The **angular speed** was instead computed as :  *(maxPotAngle∗angleVelGain)/π* where *angleVelGain* is a *tunable
 gain* value for the angle velocity.
 ## Results
-ResultsIn  all  three  modes  **1,  2,  3**  once  the  goal  is  reached,  the  detection  of  the  number  of  obstacles  iscorrect  and  equal  to  *four* (according to our simulation). 
+In  all  three  modes  **1,  2,  3**  once  the  goal  is  reached,  the  detection  of  the  number  of  obstacles  iscorrect  and  equal  to  *four* (according to our simulation). 
 
 Even  when  testing  the  detection  where  an  obstacle  was  completely occluded  three  objects  where  correctly  detected.   The  position  of  the  centers  of  the  cylindrical 
 objects calculated by us corresponds to the correct one displayed through **Rviz**.
