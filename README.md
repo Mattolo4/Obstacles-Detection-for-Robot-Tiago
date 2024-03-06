@@ -63,7 +63,10 @@ For terminal **4**:
   rosrun Assignment_1_group_12 client <x> <y> <yaw_angle>
 ~~~
 
-where *x* and *y* are the **Pose_B** coordinates, and *yaw_angle* it the **Tiago's orientation**.  ##  Description  
+where *x* and *y* are the **Pose_B** coordinates, and *yaw_angle* it the **Tiago's orientation**.  
+
+
+##  Description  
   Once  Tiago  reaches  the  PoseB,  it  must  **recognize  the  obstacles**,  cylindrical  in  shape,  from  his
   surroundings and indicate how many there are and their location in the room.
   Tiago can reach PoseB in three different ways:
