@@ -154,8 +154,14 @@ gain that can be tuned.
 
 * The **total force vector** was then computed summing the two previous force vectors.
 ![Attractive potential](media/Attractive_potential.png)  
-![Repulsive potential](media/Attractive_potential.png)  
-![Total potential](media/Attractive_potential.png)  
+*Attractive potential*
+
+![Repulsive potential](media/Repulsive potential.png)  
+*Repulsive potential*
+
+![Total potential](media/Total potential.png)  
+*Total potential*
+
 
 From the total force vector we can select the index corresponding to **highest potential** which is
 then used as the angular direction for the robot to follow to reach the goal and avoid collisions.  
@@ -185,9 +191,11 @@ ResultsIn  all  three  modes  **1,  2,  3**  once  the  goal  is  reached,  the 
 Even  when  testing  the  detection  where  an  obstacle  was  completely occluded  three  objects  where  correctly  detected.   The  position  of  the  centers  of  the  cylindrical 
 objects calculated by us corresponds to the correct one displayed through **Rviz**.
 This was tested on different goals and was successful in all cases.
-![Server](media/Attractive_potential.png)  
-![Client](media/Attractive_potential.png)  
-![Results](media/Attractive_potential.png)  
+![Client](media/client.png)  
+*Client terminal*
+
+![Results](media/results.png)  
+*Results terminal + Simulation (Gazeboo) + LaserData (Rviz)*
 
 ## Developers
 - [Gabriel Taormina](mailto:gabriel.taormina@protonmail.com) 
