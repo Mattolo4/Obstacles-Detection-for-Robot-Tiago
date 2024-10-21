@@ -216,7 +216,7 @@ This was tested on different goals and was successful in all cases.
 
 ## Developers
 - [Gabriel Taormina](mailto:gabriel.taormina@protonmail.com) 
-- Stefano Trenti
+- [Stefano Trenti](https://github.com/TrentiStefano)
 - [Matteo Villani](https://github.com/Mattolo4?tab=repositories)
 
 
